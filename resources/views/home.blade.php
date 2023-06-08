@@ -11,21 +11,9 @@
 <title>Escudo Mais - Clube de Benefícios</title>
 
 <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" >
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/all.min.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontello.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/themify-icons.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/flaticon_zippco.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/aos.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/slick.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/prettyPhoto.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/shortcodes.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/main.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/megamenu.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/responsive.css') }}">
-<!-- REVOLUTION LAYERS STYLES -->
-<link rel='stylesheet' id='rs-plugin-settings-css' href="{{ asset('assets/revolution/css/rs6.css') }}">
+<!-- STYLES -->
+@include('partials.styles')
+<!-- ./STYLES -->
 
 </head>
 <body>
@@ -37,7 +25,7 @@
             <!-- header start -->
             <header id="masthead" class="header prt-header-style-01">
                 <!-- topbar -->
-                <div class="top_bar prt-topbar-wrapper bg-base-dark text-base-white clearfix">
+                {{-- <div class="top_bar prt-topbar-wrapper bg-base-dark text-base-white clearfix">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 p-0">
@@ -49,202 +37,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- topbar end -->
                 <!-- site-header-menu -->
-                <div id="site-header-menu" class="site-header-menu">
-                    <div class="site-header-menu-inner prt-stickable-header">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <!--site-navigation -->
-                                    <div class="site-navigation d-flex align-items-center justify-content-between">
-                                        <!-- site-branding -->
-                                        <div class="site-branding">
-                                            <h1><a class="home-link" href="index-2.html" title="Fondex" rel="home">
-                                                <img id="logo" width="162" height="50" src="{{ asset('assets/images/logo.png') }}" class="img-fluid" alt="logo-img">
-                                            </a></h1>
-                                        </div><!-- site-branding end -->
-                                        <div class="btn-show-menu-mobile menubar menubar--squeeze">
-                                            <span class="menubar-box">
-                                                <span class="menubar-inner"></span>
-                                            </span>
-                                        </div>
-                                        <!-- menu -->
-                                        <nav class="main-menu menu-mobile" id="menu">
-                                            <ul class="menu">
-                                                <li class="mega-menu-item active">
-                                                    <a href="index-2.html">Home</a>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Pages</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="about.html">About Us</a></li>
-                                                        <li><a href="services.html">Services</a></li>
-                                                        <li><a href="our-team.html">Our Team</a></li>
-                                                        <li><a href="team-details.html">Team Details</a></li>
-                                                        <li><a href="contact-us.html">Contact</a></li>
-                                                        <li><a href="faq.html">FAQ</a></li>
-                                                        <li><a href="error.html">Error Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Services</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="advance-reports.html">Advance Reports</a></li>
-                                                        <li><a href="analytics-solutions.html">Analytics Solutions</a></li>
-                                                        <li><a href="business-growth.html">Business Growth</a></li>
-                                                        <li><a href="corporate-finance.html">Corporate Finance</a></li>
-                                                        <li><a href="advanced-analytics.html">Advanced Analytics</a></li>
-                                                        <li><a href="chain-management.html">Chain Management</a></li>
-
-                                                    </ul>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Portfolio</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="portfolio-style-one.html">Portfolio Style One</a></li>
-                                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Blog</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="blog.html">Blog Classic</a></li>
-                                                        <li><a href="blog-grid.html">Blog Grid View</a></li>
-                                                        <li><a href="blog-single.html">Blog Single View</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="contact-us.html">Contact</a>
-                                                </li>
-                                            </ul>
-                                        </nav><!-- menu end -->
-                                        <div class="header_extra">
-                                            <!-- header_extra -->
-                                            <div class="prt-rt-contact">
-                                                <!-- header-icons -->
-                                                <div class="prt-header-icons">
-                                                    <span class="prt-header-icon prt-header-cart-link">
-                                                        <a href="#"><i class="icon-shopping-cart"></i>
-                                                            <span class="number-cart">0</span>
-                                                        </a>
-                                                    </span>
-                                                    <div class="prt-header-icon prt-header-search-link">
-                                                        <a href="#"><i class="icon-search"></i></a>
-                                                        <div class="prt-search-overlay">
-                                                            <form method="get" class="prt-site-searchform" action="#">
-                                                                <div class="w-search-form-h">
-                                                                    <div class="w-search-form-row">
-                                                                        <div class="w-search-input">
-                                                                            <input type="search" class="field searchform-s" name="s" placeholder="Type Word Then Enter...">
-                                                                            <button type="submit">
-                                                                                <i class="icon-search"></i>
-                                                                            </button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div><!-- header-icons end -->
-                                                <div class="prt-header-text-area">
-                                                    <div class="header-info-widget">
-                                                        <span class="prt-adv-header-support">Support Center </span>
-                                                        <h3 class="prt-adv-header-number">
-                                                            <a href="tel:+182222-3555"> + 1800-200-123</a>
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- header_extra end -->
-                                            <div class="side-menu-container">
-                                                <div class="side-menu"><a href="#"><i class="ti ti-menu"></i></a></div>
-                                                <!-- Side Menu -->
-                                                <div class="side-overlay">
-                                                    <div class="side">
-                                                        <a href="#" class="close-side"><i class="icon-close"></i></a>
-                                                        <div class="row g-0">
-                                                            <div class="col-lg-4">
-                                                                <div class="bg-base-dark h-100">
-                                                                    <div class="slide-menu-info">
-                                                                        <a class="home-link" href="index-2.html" title="Fondex" rel="home">
-                                                                            <img id="logo-img" height="45" width="190" class="img-fluid auto_size" src="{{ asset('assets/images/floating-logo.png') }}" alt="logo-img">
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-8">
-                                                                <div class="menu-floating-menu-container bg-base-white">
-                                                                    <div class="textwidget widget-text">
-                                                                        <div class="floating-home">
-                                                                            <a class="prt-adv-float-button" href="index-2.html"><i class="icon-arrow-left"></i> Home </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <ul id="menu-floating-menu-1" class="menu">
-                                                                        <li class="menu-item"><a href="about.html">About Us</a></li>
-                                                                        <li class="menu-item"><a href="services.html">Services</a></li>
-                                                                        <li class="menu-item"><a href="portfolio-style-one.html">Portfolio</a></li>
-                                                                        <li class="menu-item"><a href="blog.html">Blog</a></li>
-                                                                        <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
-                                                                    </ul>
-                                                                    <div class="textwidget widget-text">
-                                                                        <div class="tm-adv-floating-social">
-                                                                            <ul class="social-icons">
-                                                                                <li class="prt-social-facebook">
-                                                                                    <a class=" tooltip-top" target="_blank" href="https://www.facebook.com/themetechMount18" data-tooltip="Facebook"><i class="icon-facebook"></i>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="prt-social-twitter">
-                                                                                    <a class=" tooltip-top" target="_blank" href="https://twitter.com/themetechmount" data-tooltip="Twitter">
-                                                                                        <i class="icon-twitter"></i>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="prt-social-instagram">
-                                                                                    <a class=" tooltip-top" target="_blank" href="https://www.instagram.com/theme_tech_mount/" data-tooltip="Instagram"><i class="icon-instagram"></i>
-                                                                                    </a>
-                                                                                </li>
-                                                                                <li class="prt-social-linkedin">
-                                                                                    <a class=" tooltip-top" target="_blank" href="https://www.linkedin.com/in/themetech-mount-81a161197" data-tooltip="LinkedIn"><i class="icon-linkedin"></i>
-                                                                                    </a>
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                        <div class="tm-adv-floating-email">
-                                                                            <a class="tm-adv-floating-mail-button" href="#"> infoexample@fondex123.com <i class="icon-arrow-right"> </i></a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="tm-adv-floating-information">
-                                                                        <div class="tm-adv-floating-address">
-                                                                            <span>35 New Broad Street, New Broad Street  House, London, EC2M 1NH.</span>
-                                                                        </div>
-                                                                        <div class="tm-adv-floating-call">
-                                                                            <span class="tm-adv-call">Call Us on: <a href="tel:+182222-3555">+18 - 2222 - 3555</a></span><br>
-                                                                            <span class="tm-adv-call">FAX: <a href="tel:+182222-3555">+18 - 2222 - 3555</a></span>
-                                                                        </div>
-                                                                        <div class="tm-adv-floating-list">
-                                                                            <ul>
-                                                                                <li class="tm-adv-float-nav-list">Our Purpose</li>
-                                                                                <li class="tm-adv-float-nav-list">Careers</li>
-                                                                                <li class="tm-adv-float-nav-list">Get in touch</li>
-                                                                                <li class="tm-adv-float-nav-list">Case Studies</li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Side Menu -->
-                                            </div>
-                                        </div><!-- site-navigation end-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @include('partials.menu')
                 <!-- site-header-menu end-->
             </header><!-- header end -->
 
@@ -274,12 +70,12 @@
                                 data-type="text"
                                 data-rsp_ch="on"
                                 data-xy="x:c;xo:-80px,-80px,0,0;yo:398px,329px,171px,139px;"
-                                data-text="w:normal;s:154,154,91,56;l:180,180,107,66;fw:700;"
+                                data-text="w:normal;s:100,154,91,56;l:180,180,107,66;fw:700;"
                                 data-frame_0="y:50,50,29,17;"
                                 data-frame_1="st:360;sp:1000;sR:360;"
                                 data-frame_999="o:0;st:w;sR:7640;"
                                 style="z-index:10;font-family:'Space Grotesk';"
-                            ><span class="text-base-skin"> Acontecer! </span>
+                            ><span class="text-base-skin">Acontecer!</span>
                             </rs-layer><!--
 
                           {{--   --><rs-layer
@@ -405,42 +201,31 @@
                             <div class="pl-15 res-991-pl-0 pt-25">
                                 <div class="section-title">
                                     <div class="title-header">
-                                        <h2 class="title">Giving your business  some orignal ideas</h2>
+                                        <h2 class="title">Proteção online para você!!!</h2>
                                     </div>
                                     <div class="title-desc">
-                                        <p>Web designing in a powerful way of just loreanot a profession, however in a passion for our Company. We have</p>
+                                        <p>Aqui na Escudo Mais você tem liberdade para se associar quando quiser.</p>
+                                        <p>Está tudo na palma da mão, 100% online pelo nosso aplicativo. Na Escudo você tem Proteção e Benefícios sempre que precisar e onde estiver. Fique sempre tranquilo, porque estamos sempre preparados para te ajudar!</p>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <ul class="prt-list prt-list-style-icon style1 prt-list-icon-color-grey">
                                             <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content"> Acquire Live Chat Sales</span>
+                                                <span class="prt-list-li-content">Sem consulta SPC/SERASA</span>
                                             </li>
                                             <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content"> Learn Customer Feedback</span>
-                                            </li>
-                                            <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content">Engage - Market Automation</span>
-                                            </li>
-                                            <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content">Support -Customer Support</span>
+                                                <span class="prt-list-li-content">Proteção contra roubo/furto</span>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <ul class="prt-list prt-list-style-icon style1 prt-list-icon-color-grey">
                                             <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content"> Acquire Live Chat Sales</span>
+                                                <span class="prt-list-li-content">Sem análise de perfil</span>
                                             </li>
                                             <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content"> Learn Customer Feedback</span>
-                                            </li>
-                                            <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content">Engage - Market Automation</span>
-                                            </li>
-                                            <li><i class="fas fa-minus"></i>
-                                                <span class="prt-list-li-content">Support -Customer Support</span>
+                                                <span class="prt-list-li-content">E muito mais</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -448,7 +233,7 @@
                                 <div class="d-lg-table text-start bg-base-grey pt-20 pr-20 pb-5 pl-30 res-991-mt-20">
                                     <img class="d-inline" src="{{ asset('assets/images/star-01.png') }}" width="88" height="15" alt="rating">
                                     <div>
-                                        <h3 class="fs-16 pt-5"><span class="underline">99.9% Customer Satisfaction</span> based on 750+fondex business services Clients Reviews and testimonials.</h3>
+                                        <h3 class="fs-16 pt-5"><span class="underline">99.9% de associados satisfeitos</span> com base em mais de 750 avaliações.</h3>
                                     </div>
                                 </div>
                             </div>
@@ -467,21 +252,16 @@
                             <div class="marquee-block overflow-hidden">
                                 <div class="marquee">
                                     <div class="marquee-content">
-                                        <div class="marquee-text">Premium nutrition services </div>
-                                        <div class="marquee-text">Large number of services provided </div>
-                                        <div class="marquee-text">10+ Years of professional experience </div>
-                                        <div class="marquee-text"> &nbsp;A large number of grateful customers &nbsp;</div>
-                                        <div class="marquee-text">&nbsp;Premium handyman services</div>
-                                        <div class="marquee-text">Premium nutrition services </div>
-                                        <div class="marquee-text">Large number of services provided </div>
-                                        <div class="marquee-text">10+ Years of professional experience </div>
-                                        <div class="marquee-text"> &nbsp;A large number of grateful customers &nbsp;</div>
-                                        <div class="marquee-text">&nbsp;Premium handyman services</div>
+                                        <div class="marquee-text">100% Protegido</div>
+                                        <div class="marquee-text">Mais de 10 anos no mercado</div>
+                                        <div class="marquee-text">Você protegido</div>
+                                        <div class="marquee-text">Associe-se agora</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- row end -->
+                    </div>
+                    <!-- row end -->
                 </div>
             </section>
             <!---padding_zero-section end-->
@@ -493,24 +273,24 @@
                         <div class="col-lg-7 col-md-7">
                             <div class="section-title style1">
                                 <div class="title-header text-lg-end">
-                                    <h2 class="title">Stay up</h2>
+                                    <h2 class="title">Fique &nbsp;&nbsp;</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-5">
                             <div class="title-desc pading-box">
-                                <p>Web designing in a powerful way of just not a profession, how a pa Company. We have to beve the idemart looking.</p>
+                                <p>Você se associa e garante a proteção para o seu carro ou moto sem burocracia. É rápido e fácil. Conheça os nossos principais benefícios.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4">
                             <div class="section-title-btn">
-                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">View All Services</a>
+                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todos os benefícios</a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8">
                             <div class="section-title style1">
                                 <div class="title-header">
-                                    <h2 class="title">to service</h2>
+                                    <h2 class="title">tranquilo</h2>
                                 </div>
                             </div>
                         </div>
@@ -526,7 +306,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">01</span>
                                     <div class="featured-title">
-                                        <h3><a href="advance-reports.html">Advance Reports</a></h3>
+                                        <h3><a href="#">Reboque</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
@@ -542,7 +322,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">02</span>
                                     <div class="featured-title">
-                                        <h3><a href="analytics-solutions.html">Analytics Solutions</a></h3>
+                                        <h3><a href="#">Táxi</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We are in charge of, to increase of a  consumer brand awareness and the revenue.</p>
@@ -558,7 +338,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">03</span>
                                     <div class="featured-title">
-                                        <h3><a href="business-growth.html">Business Growth</a></h3>
+                                        <h3><a href="#">Troca de Pneus</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
@@ -574,7 +354,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">04</span>
                                     <div class="featured-title">
-                                        <h3><a href="corporate-finanace.html">Corporate Finanace</a></h3>
+                                        <h3><a href="#">Pane Seca</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
@@ -590,7 +370,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">05</span>
                                     <div class="featured-title">
-                                        <h3><a href="chain-management.html">Chain Management</a></h3>
+                                        <h3><a href="#">Socorro Elétrico / Mecânico</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
@@ -606,7 +386,7 @@
                                 <div class="featured-content">
                                     <span class="prt-number-services">06</span>
                                     <div class="featured-title">
-                                        <h3><a href="advanced-analytics.html">Advanced Analytics</a></h3>
+                                        <h3><a href="#">Chaveiro</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
@@ -618,242 +398,6 @@
                 </div>
             </section>
             <!-- bg-base-dark end -->
-
-            <!-- process-section -->
-            <section class="prt-row process-section clearfix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h2 class="title">Discovers our latest case  some orignal ideas</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="section-title">
-                                <div class="title-desc">
-                                    <p class="title-desc-padding">Web designing in a powerful way of ot a profession, however in a passion for our Company.a tendency to believe the idea that smart looking.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-12">
-                            <div class="row">
-                                <div class="col-xl-12 col-lg-6 col-md-6">
-                                    <div class="client-box">
-                                        <div class="client-thumbnail">
-                                            <a href="#" tabindex="0">
-                                                <img width="238" height="39" class="img-fluid" src="{{ asset('assets/images/client/client-1.png') }}" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6">
-                                    <div class="client-box">
-                                        <div class="client-thumbnail">
-                                            <a href="#" tabindex="0">
-                                                <img width="212" height="40" class="img-fluid" src="{{ asset('assets/images/client/client-2.png') }}" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6">
-                                    <div class="client-box">
-                                        <div class="client-thumbnail">
-                                            <a href="#" tabindex="0">
-                                                <img width="184" height="40" class="img-fluid" src="{{ asset('assets/images/client/client-3.png') }}" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-6 col-md-6">
-                                    <div class="client-box">
-                                        <div class="client-thumbnail">
-                                            <a href="#" tabindex="0">
-                                                <img width="168" height="32" class="img-fluid" src="{{ asset('assets/images/client/client-4.png') }}" alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-12">
-                            <div class="prt-horizontal_sep border-dark width-100 mt-30"></div>
-                            <article class="prt-pfbox-view-style5 prt-pfbox">
-                                <div class="prt-post-item">
-                                    <div class="prt-content-inner">
-                                        <div class="prt-box-content">
-                                            <div class="prt-box-title">
-                                                <h3><a href="#">Business Seminar</a></h3>
-                                            </div>
-                                            <div class="prt-box-category">
-                                                Business | Development
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="prt-box-desc">
-                                    <div class="prt-project-readmore-btn">
-                                        <a href="#" rel="bookmark"><i class="icon-plus-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tm-animation-hover-img">
-                                    <div class="prt-pf-image-box">
-                                        <span class="prt-item-thumbnail">
-                                            <span class="prt-item-thumbnail-inner">
-                                                <img class="img-fluid" src="{{ asset('assets/images/blog/blog-1.jpg') }}" alt="image" width="300" height="300">
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="prt-pfbox-view-style5 prt-pfbox">
-                                <div class="prt-post-item">
-                                    <div class="prt-content-inner">
-                                        <div class="prt-box-content">
-                                            <div class="prt-box-title">
-                                                <h3><a href="#">Business Leadership</a></h3>
-                                            </div>
-                                            <div class="prt-box-category">
-                                                Finance | Growth
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="prt-box-desc">
-                                    <div class="prt-project-readmore-btn">
-                                        <a href="#" rel="bookmark"><i class="icon-plus-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tm-animation-hover-img">
-                                    <div class="prt-pf-image-box">
-                                        <span class="prt-item-thumbnail">
-                                            <span class="prt-item-thumbnail-inner">
-                                                <img class="img-fluid" src="{{ asset('assets/images/blog/blog-2.jpg') }}" alt="image" width="300" height="300">
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="prt-pfbox-view-style5 prt-pfbox">
-                                <div class="prt-post-item">
-                                    <div class="prt-content-inner">
-                                        <div class="prt-box-content">
-                                            <div class="prt-box-title">
-                                                <h3><a href="#">Financial Planning</a></h3>
-                                            </div>
-                                            <div class="prt-box-category">
-                                                Finance | Marketing
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="prt-box-desc">
-                                    <div class="prt-project-readmore-btn">
-                                        <a href="#" rel="bookmark"><i class="icon-plus-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tm-animation-hover-img">
-                                    <div class="prt-pf-image-box">
-                                        <span class="prt-item-thumbnail">
-                                            <span class="prt-item-thumbnail-inner">
-                                                <img class="img-fluid" src="{{ asset('assets/images/blog/blog-3.jpg') }}" alt="image" width="300" height="300">
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="prt-pfbox-view-style5 prt-pfbox">
-                                <div class="prt-post-item">
-                                    <div class="prt-content-inner">
-                                        <div class="prt-box-content">
-                                            <div class="prt-box-title">
-                                                <h3><a href="#">Corporate Consultancy</a></h3>
-                                            </div>
-                                            <div class="prt-box-category">
-                                                Business | Strategy
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="prt-box-desc">
-                                    <div class="prt-project-readmore-btn">
-                                        <a href="#" rel="bookmark"><i class="icon-plus-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="tm-animation-hover-img">
-                                    <div class="prt-pf-image-box">
-                                        <span class="prt-item-thumbnail">
-                                            <span class="prt-item-thumbnail-inner">
-                                                <img class="img-fluid" src="{{ asset('assets/images/blog/blog-4.jpg') }}" alt="image" width="300" height="300">
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="row mt-30">
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                            <div class="prt-fid inside style1">
-                                <div class="prt-fid-contents">
-                                    <h4 class="prt-fid-inner tm-wrap-cell">
-                                        10
-                                        <span data-appear-animation="animateDigits" data-from="10" data-to="10" data-interval="10" data-before="" data-before-style="sup" data-after="" data-after-style="sub" class="numinate">10</span>
-                                    </h4>
-                                    <h3 class="prt-fid-title tm-wrap-cell">
-                                        <span>Years of <br>experience</span>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                            <div class="prt-fid inside style1">
-                                <div class="prt-fid-contents">
-                                    <h4 class="prt-fid-inner tm-wrap-cell">
-                                        18
-                                        <span data-appear-animation="animateDigits" data-from="18" data-to="18" data-interval="18" data-before="" data-before-style="sup" data-after="" data-after-style="sub" class="numinate">18</span>
-                                    </h4>
-                                    <h3 class="prt-fid-title tm-wrap-cell">
-                                        <span>Skilled <br>professionals</span>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                            <div class="prt-fid inside style1">
-                                <div class="prt-fid-contents">
-                                    <h4 class="prt-fid-inner tm-wrap-cell">
-                                        32
-                                        <span data-appear-animation="animateDigits" data-from="32" data-to="32" data-interval="32" data-before="" data-before-style="sup" data-after="" data-after-style="sub" class="numinate">32</span>
-                                    </h4>
-                                    <h3 class="prt-fid-title tm-wrap-cell">
-                                        <span>Visited  <br>conferences</span>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                            <div class="prt-fid inside style1">
-                                <div class="prt-fid-contents">
-                                    <h4 class="prt-fid-inner tm-wrap-cell">
-                                        15
-                                        <span data-appear-animation="animateDigits" data-from="15" data-to="15" data-interval="15" data-before="" data-before-style="sup" data-after="" data-after-style="sub" class="numinate">15</span>
-                                    </h4>
-                                    <h3 class="prt-fid-title tm-wrap-cell">
-                                        <span>Visited <br>industry</span>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- process-section end-->
 
             <!-- bg-base-dark -->
             <section class="prt-row testimonial-section bg-base-grey clearfix">
@@ -881,7 +425,7 @@
                                     <!-- section title -->
                                     <div class="section-title title-style-center_text">
                                         <div class="title-header">
-                                            <h2 class="title">Happy with customers & clients</h2>
+                                            <h2 class="title">Feedback de quem confia!</h2>
                                         </div>
                                     </div><!-- section title end -->
                                 </div>
@@ -898,10 +442,10 @@
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-text">
-                                                        <blockquote class="testimonial-blockquote">We needed a strong consultant, highly skilled project team with top-tier consulting background Consultport delivered Consultport equipped us with just the right person.</blockquote>
+                                                        <blockquote class="testimonial-blockquote">Os funcionários são super pacientes e prestativos.</blockquote>
                                                         <div class="testimonial-caption">
-                                                            <h3 class="caption-heading">John Martin</h3>
-                                                            <div class="caption-text">Business man</div>
+                                                            <h3 class="caption-heading">Fernanda Santana</h3>
+                                                            <div class="caption-text">Associada</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -916,10 +460,10 @@
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-text">
-                                                        <blockquote class="testimonial-blockquote">They have proven a multiplier effect from optimizing the sum of the parts, not just the individual pieces. I really appreciate their services</blockquote>
+                                                        <blockquote class="testimonial-blockquote">Atendimento excelente e profissionais capacitados!</blockquote>
                                                         <div class="testimonial-caption">
-                                                            <h3 class="caption-heading">Alena Due</h3>
-                                                            <div class="caption-text">Business man</div>
+                                                            <h3 class="caption-heading">André Lufe</h3>
+                                                            <div class="caption-text">Associado</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -934,10 +478,10 @@
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-text">
-                                                        <blockquote class="testimonial-blockquote">We needed a strong consultant, highly skilled project team with top-tier consulting background Consultport delivered Consultport equipped us with just the right person.</blockquote>
+                                                        <blockquote class="testimonial-blockquote">Confiança e segurança top!</blockquote>
                                                         <div class="testimonial-caption">
-                                                            <h3 class="caption-heading">Tony Hsieh</h3>
-                                                            <div class="caption-text">Business Man</div>
+                                                            <h3 class="caption-heading">Leonardo Leal</h3>
+                                                            <div class="caption-text">Associado</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -958,11 +502,11 @@
                         </div>
                         <div class="col-lg-4 col-md-8 m-auto">
                             <div class="subscribe-form-box">
-                                <h3>Subscribe our newsletter</h3>
+                                <h3>Fique por dentro de nossas novidades</h3>
                                 <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
                                     <div class="mailchimp-inputbox clearfix" id="subscribe-content">
                                         <p>
-                                            <input type="email" name="email" placeholder="Enter your email address.." required=""></p>
+                                            <input type="email" name="email" placeholder="Digite o seu melhor e-mail" required=""></p>
                                         <button class="submit" type="submit"><i class="icon-paper-plane"></i></button>
                                     </div>
                                 </form>
@@ -985,16 +529,16 @@
                         <div class="col-xl-7 col-lg-12">
                             <div class="section-title">
                                 <div class="title-header">
-                                    <h2 class="title">Marketing solutions that drive results</h2>
+                                    <h2 class="title">Associado Protegido</h2>
                                 </div>
                                 <div class="title-desc pt-10">
-                                    <p>Web designing in a powerful way of ot a profession, however in a passion for our Company. A tendency to believe the idea that smart looking.</p>
+                                    <p>Seu carro ou moto protegidos com a Escudo Mais pra curtir a vida numa boa.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-12">
                             <div class="text-xl-end pt-130 res-1199-pt-20">
-                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">View All Services</a>
+                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todas as proteções</a>
                             </div>
                         </div>
                     </div>
@@ -1077,7 +621,7 @@
                             <!-- section title -->
                             <div class="section-title title-style-center_text">
                                 <div class="title-header">
-                                    <h2 class="title">Discovers our latest news</h2>
+                                    <h2 class="title">Nosso Blog</h2>
                                 </div>
                                 <div class="title-desc">
                                     <p>web designing in a powerful way of ot a profession, however in a passion for our Company.a tendency</p>
@@ -1154,100 +698,7 @@
         </div><!-- site-main end-->
 
         <!-- footer start -->
-        <footer class="footer widget-footer bg-base-dark clearfix">
-            <div class="first-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="widget-even widget-2">
-                                <div class="footer-first-title">
-                                    <h3 class="title">Lets talk. </h3>
-                                </div>
-                                <div class="footer-mail-border">
-                                    <a class="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border prt-btn-color-white" href="mailto:info@example.com">fondex@example.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="second-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12">
-                            <div class="widget widget_text">
-                                <div class="footer_logo">
-                                    <img width="199" height="62" src="{{ asset('assets/images/footer-logo.png') }}" class="img-fluid" alt="footer-logo">
-                                </div>
-                                <div class="textwidget widget-text"> 35 New Broad Street, New Broad Street  House, London, EC2M 1NH.</div>
-                                <div class="social-icons">
-                                    <ul class="list-inline">
-                                        <li class="social-facebook">
-                                            <a target="_blank" href="#">
-                                                <i class="icon-facebook" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="social-twitter">
-                                            <a target="_blank" href="#">
-                                                <i class="icon-twitter" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="social-flickr">
-                                            <a target="_blank" href="#">
-                                                <i class="icon-instagram" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li class="social-linkedin">
-                                            <a target="_blank" href="#">
-                                                <i class="icon-linkedin" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-5 col-sm-12">
-                            <div class="text-widget widget-text">
-                                <span class="tm-adv-call">Call Us on: <a href="tel:+182222-3555">+18 - 2222 - 3555</a></span>
-                                <br>
-                                <span class="tm-adv-call">FAX: <a href="tel:+182222-3555">+18 - 2222 - 3555</a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-7 col-sm-12">
-                            <div class="text-widget widget-text">
-                                <ul id="menu-footer-services" class="menu-footer-list">
-                                    <li><a href="services.html">Our Purpose</a></li>
-                                    <li><a href="contact-us.html">Get in touch</a></li>
-                                    <li><a href="about.html">Careers</a></li>
-                                    <li><a href="contact-us.html">Case Studies</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="about.html">BI Demos</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-footer-text">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="copyright">
-                                <p>Copyright © 2023 <a href="https://fondex-demo.preyantechnosys.com/">fondex</a>  All rights reserved. Designed by Preyan Technosys.</p>
-                                <div class="menu-footer-menu">
-                                    <ul class="footer-nav-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="contact-us.html">Privacy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @include('partials.footer')
         <!-- footer end -->
 
         <!-- back-to-top start -->
@@ -1259,35 +710,7 @@
     </div><!-- page end -->
 
     <!-- Javascript -->
-    <script src="{{ asset('assets/js/jquery-3.6.3.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery-migrate-3.3.2.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
-    <script src="{{ asset('assets/js/Scrolltrigger.js') }}"></script>
-    <script src="{{ asset('assets/js/SplitText.js') }}"></script>
-    <script src="{{ asset('assets/js/cursor.js') }}"></script>
-    <script src="{{ asset('assets/js/gsap.js') }}"></script>
-    <script src="{{ asset('assets/js/gsap-animation.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery-validate.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.prettyPhoto.js') }}"></script>
-    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery-waypoints.js') }}"></script>
-    <script src="{{ asset('assets/js/numinate.min.js') }}"></script>
-    <script src="{{ asset('assets/js/imagesloaded.min.js') }}"></script>
-    <script src="{{ asset('assets/js/circle-progress.min.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
-    <script src="{{ asset('assets/js/aos.js') }}"></script>
-
-    <!-- Revolution Slider -->
-    <script src='{{ asset('assets/revolution/js/revolution.tools.min.js') }}'></script>
-    <script src='{{ asset('assets/revolution/js/rs6.min.js') }}'></script>
-    <script src="{{ asset('assets/revolution/js/slider.js') }}"></script>
-    <script src="{{ asset('assets/js/aos.js') }}"></script>
-      <script>
-        AOS.init({
-            offset: 120,
-            duration: 400,
-        });
-      </script>
+    @include('partials.scripts')
     <!-- Javascript end-->
 
 </body>

@@ -1,0 +1,23 @@
+/* CUSTOM */
+
+/* .menu-feature {
+    height: 20px;
+} */
+
+.menu-feature a span {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-feature.orange a span {
+    background-color: #ff5400;
+}
+
+.menu-feature.green a span {
+    background-color: #47a145;
+}
+
+.menu-feature.green a span:hover
+.menu-feature.orange a span:hover {
+    color: #fff !important;
+}
