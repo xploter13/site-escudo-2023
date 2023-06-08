@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon_zippco";
+    src: url("../fonts/flaticon_zippco4b4d.ttf?0efbba7a75664b642e778b734d8655f8") format("truetype"),
+url("../fonts/flaticon_zippco4b4d.woff?0efbba7a75664b642e778b734d8655f8") format("woff"),
+url("../fonts/flaticon_zippco4b4d.woff2?0efbba7a75664b642e778b734d8655f8") format("woff2"),
+url("../fonts/flaticon_zippco4b4d.eot?0efbba7a75664b642e778b734d8655f8#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_zippco4b4d.svg?0efbba7a75664b642e778b734d8655f8#flaticon_zippco") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_zippco !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-international-business:before {
+    content: "\f101";
+}
+.flaticon-process:before {
+    content: "\f102";
+}
+.flaticon-research:before {
+    content: "\f103";
+}
+.flaticon-business-plan:before {
+    content: "\f104";
+}
+.flaticon-business-chart:before {
+    content: "\f105";
+}
+.flaticon-business:before {
+    content: "\f106";
+}
+.flaticon-business-1:before {
+    content: "\f107";
+}
+.flaticon-stats:before {
+    content: "\f108";
+}
+.flaticon-benefit:before {
+    content: "\f109";
+}
+.flaticon-business-2:before {
+    content: "\f10a";
+}
+.flaticon-business-3:before {
+    content: "\f10b";
+}
+.flaticon-business-4:before {
+    content: "\f10c";
+}
+.flaticon-business-report:before {
+    content: "\f10d";
+}
+.flaticon-business-5:before {
+    content: "\f10e";
+}
+.flaticon-research-1:before {
+    content: "\f10f";
+}
+.flaticon-wreath:before {
+    content: "\f110";
+}
+.flaticon-dial:before {
+    content: "\f111";
+}
+.flaticon-next:before {
+    content: "\f112";
+}
+.flaticon-financial:before {
+    content: "\f113";
+}
+.flaticon-customer-service:before {
+    content: "\f114";
+}
+.flaticon-money-back:before {
+    content: "\f115";
+}
+.flaticon-file:before {
+    content: "\f116";
+}
+.flaticon-home-button:before {
+    content: "\f117";
+}
+.flaticon-irregular:before {
+    content: "\f118";
+}
+.flaticon-abstract:before {
+    content: "\f119";
+}
+.flaticon-layers:before {
+    content: "\f11a";
+}
