@@ -29,9 +29,9 @@ nav.main-menu .mega-menu-item.megamenu-fw .mega-submenu {
     right: 0;
 }
 
-nav.main-menu ul { 
-  padding: 0px; 
-  margin: 0px; 
+nav.main-menu ul {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 nav.main-menu ul li {
@@ -100,7 +100,7 @@ ul.menu-col li a:focus{
 =================================*/
 
 @media (min-width: 1200px) {
-    
+
     nav.main-menu li.mega-menu-item ul.mega-submenu li ul {
         left: 100%;
         top: 0;
@@ -144,7 +144,7 @@ ul.menu-col li a:focus{
     nav.main-menu ul.mega-submenu.megamenu-content .col-menu:last-child{
         border-right: none;
     }
-    nav.main-menu ul.mega-submenu.megamenu-content .content ul.menu-col li:last-child a{ 
+    nav.main-menu ul.mega-submenu.megamenu-content .content ul.menu-col li:last-child a{
         border-bottom: unset;
     }
     nav.main-menu li.mega-menu-item.on ul.mega-submenu.megamenu-content .content{
@@ -237,7 +237,7 @@ ul.menu-col li a:focus{
         display: block;
         max-height: 10000px;
     }
-    nav.main-menu ul.menu, nav.main-menu ul.menu > li{ 
+    nav.main-menu ul.menu, nav.main-menu ul.menu > li{
         display: block;
         position: relative;
     }
@@ -250,7 +250,7 @@ ul.menu-col li a:focus{
         border-top: 1px solid rgba( 123,128,149,0.15);
         text-align: left;
         transition: all .4s;
-        color: rgba( 141,141,141 , 1);
+        color: #fff;
         text-transform: capitalize;
     }
     nav.main-menu ul.menu > li:first-child > a{
@@ -381,7 +381,7 @@ ul.menu-col li a:focus{
 .grid-item img {
   height: 192px;
   width: 100%;
-  
+
   /*
     object-fit:cover;
     */
