@@ -48,12 +48,12 @@
                 <div class="col-lg-6 col-md-7 col-sm-12">
                     <div class="text-widget widget-text">
                         <ul id="menu-footer-services" class="menu-footer-list">
-                            <li><a href="services.html">Our Purpose</a></li>
-                            <li><a href="contact-us.html">Get in touch</a></li>
-                            <li><a href="about.html">Careers</a></li>
-                            <li><a href="contact-us.html">Case Studies</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="about.html">BI Demos</a></li>
+                            <li><a href="#">{link}</a></li>
+                            <li><a href="#">{link}</a></li>
+                            <li><a href="#">{link}</a></li>
+                            <li><a href="#">{link}</a></li>
+                            <li><a href="#">{link}</a></li>
+                            <li><a href="#">{link}</a></li>
                         </ul>
                     </div>
                 </div>

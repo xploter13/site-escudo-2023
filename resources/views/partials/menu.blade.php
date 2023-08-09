@@ -37,7 +37,7 @@
                                     <a href="#"><span>Como se Associar?</span></a>
                                 </li>
                                 <li class="menu-feature green">
-                                    <a href="#"><span>Rastreie o seu veículo</span></a>
+                                    <a href="https://redeveiculos.com/login?empresa=rdv" target="_blank"><span>Rastreie o seu veículo</span></a>
                                 </li>
                             </ul>
                         </nav><!-- menu end -->
