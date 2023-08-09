@@ -553,11 +553,11 @@
                                     </div>
                                 </div><!-- featured-icon -->
                                 <div class="featured-title">
-                                    <h3>Design</h3>
+                                    <h3>Reboque</h3>
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur aping elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                        <p>Envio de reboque em caso de acidente ou pane do veículo, seja no âmbito mecânico ou elétrico.</p>
                                     </div>
                                 </div>
                                 <div class="featured-btn">
@@ -574,11 +574,13 @@
                                     </div>
                                 </div><!-- featured-icon -->
                                 <div class="featured-title">
-                                    <h3>Strategy</h3>
+                                    <h3>Táxi</h3>
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur aping elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                        <p>Envio de táxi em caso de acidente, incêndio ou furto/roubo
+                                            do veículo. Será providenciado táxi para o retorno ao endereço residencial do
+                                            associado.</p>
                                     </div>
                                 </div>
                                 <div class="featured-btn">
@@ -595,11 +597,11 @@
                                     </div>
                                 </div><!-- featured-icon -->
                                 <div class="featured-title">
-                                    <h3>Development</h3>
+                                    <h3>Troca de Pneus</h3>
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur aping elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                                        <p>Envio de reboque, para que o veículo seja levado à borracharia mais próxima, limitado a 100 km ida e volta (200 km totais ) do local da ocorrência.</p>
                                     </div>
                                 </div>
                                 <div class="featured-btn">

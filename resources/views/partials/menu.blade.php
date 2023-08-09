@@ -8,7 +8,7 @@
                         <!-- site-branding -->
                         <div class="site-branding">
                             <h1><a class="home-link" href="index-2.html" title="Fondex" rel="home">
-                                <img id="logo" width="162" height="50" src="{{ asset('assets/images/logo.png') }}" class="img-fluid" alt="logo-img">
+                                <img id="logo" width="162" height="50" src="{{ asset('assets/images/logo-escudo.png') }}" class="img-fluid" alt="logo-img">
                             </a></h1>
                         </div><!-- site-branding end -->
                         <div class="btn-show-menu-mobile menubar menubar--squeeze">

@@ -21,7 +21,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <div class="widget widget_text">
                         <div class="footer_logo">
-                            <img width="199" height="62" src="{{ asset('assets/images/footer-logo.png') }}" class="img-fluid" alt="footer-logo">
+                            <img width="199" height="62" src="{{ asset('assets/images/logo-escudo.png') }}" class="img-fluid" alt="footer-logo">
                         </div>
                         <div class="textwidget widget-text"> Rua José Alves Pimenta, nº 1298, Matadouro - Barra do Piraí/RJ</div>
                         <div class="social-icons">
