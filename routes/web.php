@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BeneficiosController;
+use App\Http\Controllers\ContatoController;
 
 
 /*
@@ -18,3 +19,4 @@ use App\Http\Controllers\BeneficiosController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/beneficios', [BeneficiosController::class, 'index']);
+Route::get('/contato', [ContatoController::class, 'index']);

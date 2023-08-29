@@ -31,7 +31,7 @@
                                     </ul> --}}
                                 </li>
                                 <li>
-                                    <a href="#">Contato</a>
+                                    <a href="{{ url('contato') }}">Contato</a>
                                 </li>
                                 <li class="menu-feature orange">
                                     <a href="#"><span>Como se Associar?</span></a>
