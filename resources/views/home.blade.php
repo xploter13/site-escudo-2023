@@ -21,7 +21,6 @@
     <!-- page start -->
     <div class="page">
         <div class="main-box">
-
             <!-- header start -->
             <header id="masthead" class="header prt-header-style-01">
                 <!-- topbar -->
@@ -538,7 +537,7 @@
                         </div>
                         <div class="col-xl-5 col-lg-12">
                             <div class="text-xl-end pt-130 res-1199-pt-20">
-                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todas as proteções</a>
+                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todas os benefícios</a>
                             </div>
                         </div>
                     </div>

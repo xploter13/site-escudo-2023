@@ -22,13 +22,13 @@
                                 <li class="mega-menu-item active">
                                     <a href="#">Home</a>
                                 </li>
-                                <li class="mega-menu-item submenu">
-                                    <a href="#" class="mega-menu-link">Benefícios</a>
-                                    <ul class="mega-submenu">
+                                <li class="">
+                                    <a href="{{ url('beneficios') }}" class="mega-menu-link">Benefícios</a>
+                                    {{-- <ul class="mega-submenu">
                                         <li><a href="#">Assistência</a></li>
                                         <li><a href="#">Proteção</a></li>
                                         <li><a href="#">Clube de Desconto</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </li>
                                 <li>
                                     <a href="#">Contato</a>
