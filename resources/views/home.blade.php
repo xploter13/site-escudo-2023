@@ -283,7 +283,7 @@
                         </div>
                         <div class="col-lg-3 col-md-4">
                             <div class="section-title-btn">
-                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todos os benefícios</a>
+                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="{{ url('beneficios') }}">Ver todos os benefícios</a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8">
@@ -537,7 +537,7 @@
                         </div>
                         <div class="col-xl-5 col-lg-12">
                             <div class="text-xl-end pt-130 res-1199-pt-20">
-                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="contact-us.html">Ver todas os benefícios</a>
+                                <a class="prt-btn prt-btn-size-lg prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin" href="{{ url('beneficios') }}">Ver todas os benefícios</a>
                             </div>
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-btn">
-                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="personality-disorders.html">Explore Now<i class="icon-angle-double-right"></i></a>
+                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="{{ url('beneficios') }}">Saiba Mais<i class="icon-angle-double-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box -->
                         </div>
@@ -583,7 +583,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-btn">
-                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="personality-disorders.html">Explore Now<i class="icon-angle-double-right"></i></a>
+                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="{{ url('beneficios') }}">Saiba Mais<i class="icon-angle-double-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box -->
                         </div>
@@ -604,7 +604,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-btn">
-                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="personality-disorders.html">Explore Now<i class="icon-angle-double-right"></i></a>
+                                    <a class="prt-btn prt-btn-size-md btn-inline prt-btn-shape-round prt-icon-btn-right prt-btn-color-white" href="{{ url('beneficios') }}">Saiba Mais<i class="icon-angle-double-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box -->
                         </div>
@@ -613,13 +613,13 @@
             </section>
             <!-- bg-base-dark end -->
 
-            <!--blog-section-->
+            <!--blog-section--
             <section class="prt-row blog-section clearfix">
                 <div class="container">
-                    <!-- row -->
+                    <!-- row --
                     <div class="row">
                         <div class="col-lg-9 col-md-12 m-auto">
-                            <!-- section title -->
+                            <!-- section title --
                             <div class="section-title title-style-center_text">
                                 <div class="title-header">
                                     <h2 class="title">Nosso Blog</h2>
@@ -627,12 +627,12 @@
                                 <div class="title-desc">
                                     <p>web designing in a powerful way of ot a profession, however in a passion for our Company.a tendency</p>
                                 </div>
-                            </div><!-- section title end -->
+                            </div><!-- section title end --
                         </div>
-                    </div><!-- row end -->
+                    </div><!-- row end --
                     <div class="row g-0 mt-5">
                         <div class="col-lg-4 col-md-6 col-sm-12">
-                            <!-- featured-imagebox-post -->
+                            <!-- featured-imagebox-post --
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
                                     <img width="650" height="510" class="img-fluid" src="{{ asset('assets/images/blog/blog-01.jpg') }}" alt="image">
@@ -649,10 +649,10 @@
                                 <div class="prt-postbox-desc-footer">
                                     <a class="prt-btn prt-btn-size-md btn-inline prt-icon-btn-right prt-btn-color-dark" href="blog-single.html" tabindex="0">Explore More<i class="icon-angle-double-right"></i></a>
                                 </div>
-                            </div><!-- featured-imagebox-post end-->
+                            </div><!-- featured-imagebox-post end--
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12">
-                            <!-- featured-imagebox-post -->
+                            <!-- featured-imagebox-post --
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
                                     <img width="650" height="510" class="img-fluid" src="{{ asset('assets/images/blog/blog-02.jpg') }}" alt="image">
@@ -669,10 +669,10 @@
                                 <div class="prt-postbox-desc-footer">
                                     <a class="prt-btn prt-btn-size-md btn-inline prt-icon-btn-right prt-btn-color-dark" href="blog-single.html" tabindex="0">Explore More<i class="icon-angle-double-right"></i></a>
                                 </div>
-                            </div><!-- featured-imagebox-post end-->
+                            </div><!-- featured-imagebox-post end--
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12">
-                            <!-- featured-imagebox-post -->
+                            <!-- featured-imagebox-post --
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
                                     <img width="650" height="510" class="img-fluid" src="{{ asset('assets/images/blog/blog-03.jpg') }}" alt="image">
@@ -689,7 +689,7 @@
                                 <div class="prt-postbox-desc-footer">
                                     <a class="prt-btn prt-btn-size-md btn-inline prt-icon-btn-right prt-btn-color-dark" href="blog-single.html" tabindex="0">Explore More<i class="icon-angle-double-right"></i></a>
                                 </div>
-                            </div><!-- featured-imagebox-post end-->
+                            </div><!-- featured-imagebox-post end--
                         </div>
                     </div>
                 </div>
