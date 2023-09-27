@@ -74,19 +74,11 @@
                                 </div><!-- section title end -->
                                 <ul class="prt-adv-socialbox-links">
                                     <li>
-                                        <a class="prt-adv-social-link" href="#" target="_blank"><span
+                                        <a class="prt-adv-social-link" href="https://www.facebook.com/escudoplusprotecaoveicular" target="_blank"><span
                                                 class="prt_social_name">Facebook</span></a>
                                     </li>
                                     <li>
-                                        <a class="prt-adv-social-link" href="#" target="_blank"><span
-                                                class="prt_social_name">Linkedin</span></a>
-                                    </li>
-                                    <li>
-                                        <a class="prt-adv-social-link" href="#" target="_blank"><span
-                                                class="prt_social_name">Twitter</span></a>
-                                    </li>
-                                    <li>
-                                        <a class="prt-adv-social-link" href="#" target="_blank"><span
+                                        <a class="prt-adv-social-link" href="https://www.instagram.com/escudomais/" target="_blank"><span
                                                 class="prt_social_name">Instagram</span></a>
                                     </li>
                                 </ul>
@@ -98,26 +90,26 @@
                                     <div class="col-md-12">
                                         <label>
                                             <span class="text-input"><input name="fname" type="text" value=""
-                                                    placeholder="Your Name" required="required"></span>
+                                                    placeholder="Seu nome" required="required"></span>
                                         </label>
                                     </div>
                                     <div class="col-md-12">
                                         <label>
                                             <span class="text-input"><input name="email" type="text" value=""
-                                                    placeholder="Your Email" required="required"></span>
+                                                    placeholder="Seu e-mail" required="required"></span>
                                         </label>
                                     </div>
                                     <div class="col-md-12">
                                         <label>
                                             <span class="text-input">
-                                                <textarea name="How Can We Help?" rows="3" placeholder="Message...." required="required"></textarea>
+                                                <textarea name="message" rows="3" placeholder="Digite sua mensagem...." required="required"></textarea>
                                             </span>
                                         </label>
                                     </div>
                                     <div class="col-md-12">
                                         <button
                                             class="submit prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-fill prt-btn-color-skin"
-                                            type="submit">Submit</button>
+                                            type="submit">Enviar</button>
                                     </div>
                                 </div>
                             </form>

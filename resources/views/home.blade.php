@@ -102,7 +102,7 @@
                                 data-frame_1="st:330;sp:1000;sR:330;"
                                 data-frame_999="o:0;st:w;sR:7670;"
                                 style="z-index:8;font-family:'DM Sans';"
-                            >Torne-se nosso associado e fique protegido. Você paga até 40% mais barato que o seguro convenicional.
+                            >Torne-se nosso associado e fique protegido. Você paga até 40% mais barato que o seguro convencional.
                             </rs-layer><!--
 
 
@@ -252,7 +252,7 @@
                                 <div class="marquee">
                                     <div class="marquee-content">
                                         <div class="marquee-text">100% Protegido</div>
-                                        <div class="marquee-text">Mais de 10 anos no mercado</div>
+                                        <div class="marquee-text">Mais de 6 anos no mercado</div>
                                         <div class="marquee-text">Você protegido</div>
                                         <div class="marquee-text">Associe-se agora</div>
                                     </div>
@@ -278,7 +278,7 @@
                         </div>
                         <div class="col-lg-5 col-md-5">
                             <div class="title-desc pading-box">
-                                <p>Você se associa e garante a proteção para o seu carro ou moto sem burocracia. É rápido e fácil. Conheça os nossos principais benefícios.</p>
+                                <p>Você se associa e garante a proteção para o seu veículo sem burocracia. É rápido e fácil. Conheça os nossos principais benefícios.</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4">
@@ -308,7 +308,9 @@
                                         <h3><a href="#">Reboque</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
+                                        <p>
+                                            Envio de reboque em caso de acidente ou pane do veículo, seja no âmbito mecânico ou elétrico.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -324,7 +326,9 @@
                                         <h3><a href="#">Táxi</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We are in charge of, to increase of a  consumer brand awareness and the revenue.</p>
+                                        <p>
+                                            Em caso de acidente, incêndio, furto/roubo do veículo em até 40KM do domicílio cadastrado, será providenciado táxi até o endereço residencial do associado.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -340,7 +344,7 @@
                                         <h3><a href="#">Troca de Pneus</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
+                                        <p>Envio de reboque, para que o veículo seja levado à borracharia mais próxima, limitado a 100 km ida e volta (200 km totais ) do local da ocorrência.</p>
                                     </div>
                                 </div>
                             </div>
@@ -356,7 +360,8 @@
                                         <h3><a href="#">Pane Seca</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
+                                        <p>Se o combustível acabar, fornecemos reboque para que o mesmo
+                                            seja levado até o posto de combustível mais próximo.</p>
                                     </div>
                                 </div>
                             </div>
@@ -372,7 +377,8 @@
                                         <h3><a href="#">Socorro Elétrico / Mecânico</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>To implement future-oriented logistics strategies leading companies in all industries.</p>
+                                        <p>Na hipótese de pane, que impossibilite a locomoção própria
+                                            do veículo, o mesmo será rebocado, desde que não ultrapasse o limite contratado.</p>
                                     </div>
                                 </div>
                             </div>
@@ -388,7 +394,9 @@
                                         <h3><a href="#">Chaveiro</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Concerned with a variety of forms of company financing, aspects of the reorganization.</p>
+                                        <p>
+                                            Após o conserto do veículo, em evento que tenha sido atendido pela assistência em município situado à mais de 100KM (cem quilômetros) do local de residência do associado ou pessoa de confiança que possa retirar o veículo.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -531,7 +539,7 @@
                                     <h2 class="title">Associado Protegido</h2>
                                 </div>
                                 <div class="title-desc pt-10">
-                                    <p>Seu carro ou moto protegidos com a Escudo Mais pra curtir a vida numa boa.</p>
+                                    <p>Seu veículo protegido com a Escudo Mais pra curtir a vida numa boa.</p>
                                 </div>
                             </div>
                         </div>

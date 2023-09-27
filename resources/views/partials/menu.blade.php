@@ -7,7 +7,7 @@
                     <div class="site-navigation d-flex align-items-center justify-content-between">
                         <!-- site-branding -->
                         <div class="site-branding">
-                            <h1><a class="home-link" href="index-2.html" title="Fondex" rel="home">
+                            <h1><a class="home-link" href="{{ url('/') }}" title="Fondex" rel="home">
                                 <img id="logo" width="162" height="50" src="{{ asset('assets/images/logo-escudo.png') }}" class="img-fluid" alt="logo-img">
                             </a></h1>
                         </div><!-- site-branding end -->
@@ -20,7 +20,7 @@
                         <nav class="main-menu menu-mobile" id="menu">
                             <ul class="menu">
                                 <li class="mega-menu-item active">
-                                    <a href="#">Home</a>
+                                    <a href="{{ url('/') }}">Home</a>
                                 </li>
                                 <li class="">
                                     <a href="{{ url('beneficios') }}" class="mega-menu-link">Benefícios</a>
@@ -34,7 +34,7 @@
                                     <a href="{{ url('contato') }}">Contato</a>
                                 </li>
                                 <li class="menu-feature orange">
-                                    <a href="#"><span>Como se Associar?</span></a>
+                                    <a href="{{ url('como-se-associar') }}"><span>Como se Associar?</span></a>
                                 </li>
                                 <li class="menu-feature green">
                                     <a href="https://redeveiculos.com/login?empresa=rdv" target="_blank"><span>Rastreie o seu veículo</span></a>
@@ -47,7 +47,7 @@
                                  <!-- header-icons -->
                                  <div class="prt-header-icons">
                                     <span class="prt-header-icon prt-header-cart-link">
-                                        <a href="#" title="Área do Associado"><i class="icon-user"></i> <br> Área do Associado</a>
+                                        <a href="{{ url('area-associado') }}" title="Área do Associado"><i class="icon-user"></i> <br> Área do Associado</a>
                                     </span>
                                     {{-- <div class="prt-header-icon prt-header-search-link">
                                         <a href="#"><i class="icon-search"></i></a>

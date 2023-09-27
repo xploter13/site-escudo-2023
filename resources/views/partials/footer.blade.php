@@ -23,7 +23,7 @@
                         <div class="footer_logo">
                             <img width="199" height="62" src="{{ asset('assets/images/logo-escudo.png') }}" class="img-fluid" alt="footer-logo">
                         </div>
-                        <div class="textwidget widget-text"> Rua José Alves Pimenta, nº 1298, Matadouro - Barra do Piraí/RJ</div>
+                        <div class="textwidget widget-text"> R. Pres. Vargas, nº203 - Centro, Três Rios - RJ, 25802-200</div>
                         <div class="social-icons">
                             <ul class="list-inline">
                                 <li class="social-facebook">
@@ -32,7 +32,7 @@
                                     </a>
                                 </li>
                                 <li class="social-flickr">
-                                    <a target="_blank" href="https://www.instagram.com/escudoplus" target="_blank">
+                                    <a target="_blank" href="https://www.instagram.com/escudomais/" target="_blank">
                                         <i class="icon-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li>
@@ -42,18 +42,22 @@
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12">
                     <div class="text-widget widget-text">
-                        <span class="tm-adv-call">Atendimento: <a href="tel:08007888080">08007888080</a></span>
+                        <span class="tm-adv-call pb-4">Atendimento: <a href="tel:08007888080">0800 788 8080</a></span>
+                        {{-- <span class="tm-adv-call pt-5">
+                            <strong>Somos afiliados a</strong>
+                            <img src="{{ asset('assets/images/logo-aaapv.webp') }}" style="width: 200px; height: auto;" alt="AAAPV">
+                        </span> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-7 col-sm-12">
                     <div class="text-widget widget-text">
                         <ul id="menu-footer-services" class="menu-footer-list">
-                            <li><a href="#">{link}</a></li>
-                            <li><a href="#">{link}</a></li>
-                            <li><a href="#">{link}</a></li>
-                            <li><a href="#">{link}</a></li>
-                            <li><a href="#">{link}</a></li>
-                            <li><a href="#">{link}</a></li>
+                            <li><a href="{{ url('/') }}">Home</a></li>
+                            <li><a href="{{ url('beneficios') }}">Benefícios</a></li>
+                            <li><a href="{{ url('contato') }}">Contato</a></li>
+                            <li><a href="{{ url('como-se-associar') }}">Como se Associar?</a></li>
+                            <li><a href="https://redeveiculos.com/login?empresa=rdv" target="_blank">Rastreie o seu veículo</a></li>
+                            <li><a href="#">Regulamento</a></li>
                         </ul>
                     </div>
                 </div>
